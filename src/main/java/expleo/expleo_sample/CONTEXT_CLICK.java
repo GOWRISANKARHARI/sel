@@ -15,8 +15,8 @@ public class CONTEXT_CLICK {
         driver.manage().window().maximize();
         driver.get("https://omayo.blogspot.com/");
         Actions action = new Actions(driver);
-        WebElement block = driver.findElement(By.className("gsc-input"));
-        action.contextClick(block).perform();
-        
+        WebElement block = driver.findElement(By.xpath("//button[@ondblclick=\"dblclickAlert()\"]"));
+        action.doubleClick(block).perform();
+        System.out.println("success:"+block.getDomProperty("text"));
 	}
 }

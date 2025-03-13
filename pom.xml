@@ -112,9 +112,7 @@
             <goals>
               <goal>java</goal>
             </goals>
-            <configuration>
-              <mainClass>expleo.expleo_sample.CONTEXT_CLICK</mainClass> <!-- Replace with actual main class -->
-            </configuration>
+        
           </execution>
         </executions>
       </plugin>
