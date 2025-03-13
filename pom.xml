@@ -113,7 +113,7 @@
               <goal>java</goal>
             </goals>
             <configuration>
-              <mainClass>expleo.expleo_sample.App</mainClass> <!-- Replace with actual main class -->
+              <mainClass>expleo.expleo_sample.CONTEXT_CLICK</mainClass> <!-- Replace with actual main class -->
             </configuration>
           </execution>
         </executions>

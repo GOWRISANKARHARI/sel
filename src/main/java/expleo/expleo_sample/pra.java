@@ -32,7 +32,7 @@ public class pra {
         for (WebElement option : list1) {
             System.out.println("Option: " + option.getText());
         }
-        checkbox.clear()
+        checkbox.clear();
         				
 
         driver1.quit();
