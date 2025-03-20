@@ -15,6 +15,7 @@ public class highlight {
         driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
         WebElement mail=driver.findElement(By.xpath("//input[@name=\"email\"]"));
         flash(driver,mail);
+        
 	}
 	public static void flash(WebDriver driver,WebElement mail)
 	{
@@ -42,5 +43,6 @@ public class highlight {
 			e.printStackTrace();
 		}
 		}
+	
 	}
 }
